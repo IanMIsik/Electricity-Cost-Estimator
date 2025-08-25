@@ -1,0 +1,42 @@
+# General ignore rules for Python projects
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Virtual environment
+# This is where your installed packages like Streamlit are located.
+# It's important to ignore this folder as it's specific to your machine.
+.venv
+venv/
+env/
+/bin/
+/lib/
+/include/
+pip-selfcheck.json
+.git-submodule.json
+
+# Environment variables
+# This is a critical line to ensure your environment variables are not
+# accidentally pushed to GitHub.
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.bak
