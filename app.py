@@ -106,7 +106,7 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
-st.title("💡 UK Electricity Cost Estimator")
+st.title("UK Electricity Cost Estimator")
 st.write("Enter your business's details to estimate and project electricity costs over the next 15 years.")
 
 # --- Input Section ---
